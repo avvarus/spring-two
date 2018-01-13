@@ -29,7 +29,11 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
         auth
                   .inMemoryAuthentication()
+<<<<<<< 3bb973a1ccdbb14b09f31b59c83ff7861e5398e1
                   .withUser("user").password("password").roles("USER");
+=======
+                  .withUser ("admin").password ("admin").roles ("USER");
+>>>>>>> Boot Security
     }
 
 

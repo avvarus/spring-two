@@ -1,6 +1,12 @@
 package com.example.springtwo.model;
 
 
+<<<<<<< 3bb973a1ccdbb14b09f31b59c83ff7861e5398e1
+=======
+import org.springframework.context.annotation.Bean;
+
+
+>>>>>>> Boot Security
 public class Product {
 
 
